@@ -3,18 +3,32 @@
 }
 .center {
   display: block;
+  padding: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
-#tituloprincipal{
+#tituloprincipal {
+  color: darkolivegreen;
   font-size: 48pt;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
-  padding-bottom: 30px;
+  padding: 30px;
 }
-}
-.paragrafo{
+.paragrafo {
+  text-indent: 5%;
   color: darkslategrey;
+  text-align: justify;
+
+}
+.fonte {
+  text-indent: 0%;
+  text-align: left;
+  margin-left: 2pt;
+}
+h3{
+  text-indent: 0%;
+  color: black;
+  text-align: justify;
 }
